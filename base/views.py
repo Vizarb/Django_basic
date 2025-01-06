@@ -10,6 +10,9 @@ def index(req):
     return JsonResponse('hello', safe=False)
 
 
+def test(req):
+    return JsonResponse('hello second', safe=False)
+
 
 
 def myProducts(req):
